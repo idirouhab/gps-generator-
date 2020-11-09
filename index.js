@@ -5,7 +5,7 @@ const options = {
     "method": "POST",
     "hostname": "insights-collector.eu01.nr-data.net",
     "port": null,
-    "path": `/v1/accounts/${proess.env.ACCOUNT_ID}/events`,
+    "path": `/v1/accounts/${process.env.ACCOUNT_ID}/events`,
     "headers": {
         "X-Insert-Key": process.env.NEW_RELIC_INSERT_KEY,
         "Content-Type": "application/json",
